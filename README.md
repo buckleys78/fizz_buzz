@@ -1,3 +1,7 @@
+FizzBuzz class
+
+By Steve Buckley
+
 This class has one method.  It takes one argument, a number, and can return the following:
   a) if the value is divisible by 15, 'FizzBuzz'
   b) If divisible by 5, "Buzz",
