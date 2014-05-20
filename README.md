@@ -1,11 +1,12 @@
-FizzBuzz class
+FizzBuzz-Advanced Function
 
 By Steve Buckley
 
-This class has one method.  It takes one argument, a number, and can return the following:
-  a) if the value is divisible by 15, 'FizzBuzz'
-  b) If divisible by 5, "Buzz",
-  c) if divisible by 3, "Fizz",
-  d) if anything else, the value.
+This function has one method.  It takes two arguments, a number to test, and a hash of divisor keys and corresponding text values.
 
-  The code uses integer division, to determine the results.
+It returns the following:
+  a) a string of concatenated text values for each key that
+      evenly divides into the test value, or
+  d) if no keys divide evenly, the test value itself.
+
+  The code uses modulus to determine the results.
