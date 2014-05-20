@@ -1,4 +1,5 @@
 class FizzBuzz
+
   def initialize(n)
     if n%15
       puts "FizzBuzz"
@@ -10,4 +11,5 @@ class FizzBuzz
       puts n
     end
   end
+
 end
